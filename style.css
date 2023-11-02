@@ -1,0 +1,26 @@
+/* Estilos CSS para tu proyecto */
+.calendar-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add-event-container,
+.delete-event-container {
+    margin-bottom: 20px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: #dc3545;
+    margin-left: 5px;
+}
+
+/* Estilo para los eventos */
+.fc-event {
+    padding: 5px 10px;
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
